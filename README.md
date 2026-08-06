@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/reezee-mark.svg" alt="ReeZee AI logo" width="124" />
+  <img src="assets/reezee-mark.svg" alt="ReeZee AI logo" width="180" />
 
 # ReeZee AI for Photoshop
 
@@ -315,7 +315,7 @@ Commercial terms and preview access are handled directly. Contact **[nimanzriart
 
 <div align="center">
 
-<img src="assets/reezee-mark.svg" alt="ReeZee AI" width="76" />
+<img src="assets/reezee-mark.svg" alt="ReeZee AI" width="112" />
 
 ### Photoshop is the canvas. ReeZee connects the intelligence around it.
 
