@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ReeZee AI interface preview placeholder</title>
+  <desc id="desc">Replace this branded placeholder with a screenshot of the ReeZee AI Photoshop plugin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151a16"/><stop offset="1" stop-color="#0d100e"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#b2e54e" stop-opacity=".24"/><stop offset="1" stop-color="#b2e54e" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.4" fill="#b2e54e" opacity=".12"/></pattern>
+  </defs>
+  <rect width="1600" height="900" rx="38" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="38" fill="url(#dots)"/>
+  <circle cx="800" cy="440" r="470" fill="url(#glow)"/>
+  <rect x="84" y="78" width="1432" height="744" rx="32" fill="#181d19" stroke="#4e584d" stroke-width="2"/>
+  <rect x="84" y="78" width="1432" height="72" rx="32" fill="#242a24"/>
+  <rect x="84" y="120" width="1432" height="30" fill="#242a24"/>
+  <circle cx="128" cy="114" r="8" fill="#b2e54e"/><circle cx="158" cy="114" r="8" fill="#6a7467"/><circle cx="188" cy="114" r="8" fill="#6a7467"/>
+  <text x="800" y="123" fill="#eef4ea" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle">REEZEE AI — PHOTOSHOP PLUGIN</text>
+  <rect x="120" y="185" width="912" height="600" rx="22" fill="#0f1210" stroke="#30372f"/>
+  <rect x="1065" y="185" width="415" height="600" rx="22" fill="#202520" stroke="#30372f"/>
+  <rect x="157" y="221" width="838" height="480" rx="18" fill="#161b17"/>
+  <path d="M276 618c94-238 226-55 311-217 100-192 238-82 303-26v243z" fill="#2c3927"/>
+  <path d="M244 618c84-141 153-95 226-180 103-121 221-34 348 81 54-40 105-33 149 1v98z" fill="#789b45" opacity=".55"/>
+  <circle cx="710" cy="342" r="78" fill="#b2e54e" opacity=".72"/>
+  <rect x="157" y="723" width="355" height="26" rx="8" fill="#30382f"/><rect x="530" y="723" width="210" height="26" rx="8" fill="#232a23"/>
+  <rect x="1095" y="220" width="355" height="48" rx="14" fill="#2a312a"/>
+  <text x="1121" y="251" fill="#f3f7f0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700">ReeZee Agent</text>
+  <rect x="1095" y="300" width="290" height="92" rx="18" fill="#2a312a"/>
+  <rect x="1160" y="424" width="290" height="118" rx="18" fill="#344129" stroke="#b2e54e" stroke-opacity=".44"/>
+  <rect x="1095" y="579" width="355" height="92" rx="18" fill="#151a16" stroke="#333b32"/>
+  <rect x="1095" y="700" width="278" height="50" rx="15" fill="#151a16" stroke="#333b32"/>
+  <circle cx="1424" cy="725" r="26" fill="#b2e54e"/>
+  <path d="M1414 725h20m-8-8 8 8-8 8" fill="none" stroke="#172015" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#8f9a8c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">
+    <text x="1118" y="329">Create an editable campaign</text><text x="1118" y="354">layout with precise typography.</text>
+    <text x="1182" y="456">Building layers, text, effects,</text><text x="1182" y="482">and masks in Photoshop...</text><text x="1182" y="514" fill="#b2e54e">✓ Document updated</text>
+    <text x="1118" y="613">Ask ReeZee anything...</text>
+  </g>
+  <g transform="translate(420 314)">
+    <rect width="560" height="210" rx="28" fill="#0d100e" fill-opacity=".87" stroke="#b2e54e" stroke-width="2" stroke-dasharray="12 10"/>
+    <text x="280" y="80" fill="#f4f8f1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="800" text-anchor="middle">PRODUCT SCREENSHOT</text>
+    <text x="280" y="126" fill="#aab5a7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" text-anchor="middle">Replace this file when the final UI is ready</text>
+    <text x="280" y="163" fill="#b2e54e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" text-anchor="middle">assets/plugin-preview.svg</text>
+  </g>
+</svg>

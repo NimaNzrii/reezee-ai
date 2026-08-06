@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">ReeZee AI workflow</title>
+  <desc id="desc">A workflow diagram showing a user request flowing through ReeZee into Photoshop, ComfyUI, and external agents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#131714"/><stop offset="1" stop-color="#0b0e0c"/></linearGradient>
+    <linearGradient id="green" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#d8ff87"/><stop offset="1" stop-color="#8fd83f"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#000" flood-opacity=".4"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#b2e54e" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1600" height="760" rx="38" fill="url(#bg)"/>
+  <rect width="1600" height="760" rx="38" fill="url(#grid)"/>
+  <text x="800" y="94" fill="#f4f7f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="43" font-weight="800" text-anchor="middle">One request. Native Photoshop results.</text>
+  <text x="800" y="137" fill="#97a194" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" text-anchor="middle">Keep creative control while ReeZee coordinates the tools around your document.</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle" filter="url(#shadow)">
+    <g transform="translate(90 260)">
+      <rect width="320" height="210" rx="27" fill="#202620" stroke="#525c50"/>
+      <circle cx="160" cy="64" r="31" fill="#b2e54e"/>
+      <path d="M145 65h30m-15-15v30" stroke="#172015" stroke-width="6" stroke-linecap="round"/>
+      <text x="160" y="125" fill="#f5f8f2" font-size="26" font-weight="800">Describe</text>
+      <text x="160" y="160" fill="#9ca699" font-size="16">Chat in the plugin or</text>
+      <text x="160" y="184" fill="#9ca699" font-size="16">use an MCP client</text>
+    </g>
+    <g transform="translate(475 220)">
+      <rect width="650" height="290" rx="34" fill="#242b24" stroke="#b2e54e" stroke-width="2"/>
+      <rect x="38" y="38" width="574" height="54" rx="17" fill="#151a16"/>
+      <text x="325" y="73" fill="#d8ff87" font-size="24" font-weight="900" letter-spacing="1">REEZEE AI</text>
+      <g transform="translate(54 125)">
+        <rect width="160" height="115" rx="21" fill="#171c18"/>
+        <text x="80" y="46" fill="#f5f8f2" font-size="19" font-weight="800">Understands</text>
+        <text x="80" y="78" fill="#8f9a8c" font-size="14">document context</text>
+      </g>
+      <g transform="translate(245 125)">
+        <rect width="160" height="115" rx="21" fill="#171c18"/>
+        <text x="80" y="46" fill="#f5f8f2" font-size="19" font-weight="800">Plans</text>
+        <text x="80" y="78" fill="#8f9a8c" font-size="14">native operations</text>
+      </g>
+      <g transform="translate(436 125)">
+        <rect width="160" height="115" rx="21" fill="#171c18"/>
+        <text x="80" y="46" fill="#f5f8f2" font-size="19" font-weight="800">Executes</text>
+        <text x="80" y="78" fill="#8f9a8c" font-size="14">through UXP</text>
+      </g>
+    </g>
+    <g transform="translate(1190 180)">
+      <rect width="320" height="150" rx="26" fill="#202620" stroke="#525c50"/>
+      <text x="160" y="61" fill="#f5f8f2" font-size="25" font-weight="800">Photoshop</text>
+      <text x="160" y="94" fill="#9ca699" font-size="16">Layers • text • masks</text>
+      <text x="160" y="119" fill="#9ca699" font-size="16">effects • selections</text>
+    </g>
+    <g transform="translate(1190 370)">
+      <rect width="320" height="150" rx="26" fill="#202620" stroke="#525c50"/>
+      <text x="160" y="61" fill="#f5f8f2" font-size="25" font-weight="800">ComfyUI</text>
+      <text x="160" y="94" fill="#9ca699" font-size="16">Your workflows, models,</text>
+      <text x="160" y="119" fill="#9ca699" font-size="16">LoRAs & ControlNets</text>
+    </g>
+  </g>
+  <g fill="none" stroke="#b2e54e" stroke-width="4" stroke-linecap="round" opacity=".85">
+    <path d="M410 365H475"/><path d="M1125 330c45 0 25-75 65-75"/><path d="M1125 400c45 0 25 45 65 45"/>
+  </g>
+  <g fill="#b2e54e"><path d="M464 356l15 9-15 9z"/><path d="M1179 246l15 9-15 9z"/><path d="M1179 436l15 9-15 9z"/></g>
+  <rect x="350" y="590" width="900" height="84" rx="24" fill="#171c18" stroke="#343c33"/>
+  <text x="800" y="626" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="700" text-anchor="middle">The result stays editable</text>
+  <text x="800" y="653" fill="#91a08d" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle">ReeZee builds document structure instead of flattening the creative process into a single pasted image.</text>
+</svg>

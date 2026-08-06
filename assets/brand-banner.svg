@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">ReeZee AI product banner</title>
+  <desc id="desc">A branded illustration connecting AI chat, Photoshop, ComfyUI, and external agents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111511"/>
+      <stop offset="0.52" stop-color="#171c18"/>
+      <stop offset="1" stop-color="#0b0e0c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="55%">
+      <stop offset="0" stop-color="#b2e54e" stop-opacity="0.34"/>
+      <stop offset="0.52" stop-color="#79c942" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#79c942" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#d8ff87"/>
+      <stop offset="1" stop-color="#8fd83f"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#b2e54e" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" rx="42" fill="url(#bg)"/>
+  <rect width="1600" height="900" rx="42" fill="url(#grid)"/>
+  <ellipse cx="800" cy="405" rx="630" ry="470" fill="url(#glow)"/>
+  <g opacity="0.9">
+    <circle cx="84" cy="76" r="6" fill="#b2e54e"/>
+    <circle cx="110" cy="76" r="6" fill="#b2e54e" opacity="0.42"/>
+    <circle cx="136" cy="76" r="6" fill="#b2e54e" opacity="0.18"/>
+  </g>
+  <text x="800" y="150" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="76" font-weight="800" text-anchor="middle" letter-spacing="-3">ReeZee AI</text>
+  <text x="800" y="210" fill="#b9c4b7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" text-anchor="middle">Photoshop-native creation • ComfyUI freedom • Agent-ready control</text>
+
+  <g filter="url(#shadow)">
+    <rect x="500" y="286" width="600" height="360" rx="32" fill="#202520" stroke="#b2e54e" stroke-opacity="0.52" stroke-width="2"/>
+    <rect x="530" y="316" width="540" height="46" rx="15" fill="#2a302a"/>
+    <circle cx="558" cy="339" r="6" fill="#b2e54e"/>
+    <circle cx="579" cy="339" r="6" fill="#6d756b"/>
+    <circle cx="600" cy="339" r="6" fill="#6d756b"/>
+    <text x="800" y="347" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="700" text-anchor="middle">ADOBE PHOTOSHOP</text>
+    <rect x="530" y="386" width="160" height="230" rx="18" fill="#171b17"/>
+    <rect x="712" y="386" width="358" height="230" rx="18" fill="#111511"/>
+    <rect x="735" y="410" width="310" height="34" rx="10" fill="#282e28"/>
+    <rect x="735" y="461" width="202" height="13" rx="6.5" fill="#b2e54e" opacity="0.92"/>
+    <rect x="735" y="488" width="272" height="11" rx="5.5" fill="#687065"/>
+    <rect x="735" y="512" width="244" height="11" rx="5.5" fill="#50574e"/>
+    <rect x="735" y="553" width="134" height="42" rx="13" fill="url(#accent)"/>
+    <text x="802" y="580" fill="#182016" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="800" text-anchor="middle">CREATE</text>
+    <g fill="#2c332c">
+      <rect x="550" y="411" width="120" height="37" rx="11"/>
+      <rect x="550" y="463" width="120" height="37" rx="11"/>
+      <rect x="550" y="515" width="120" height="37" rx="11"/>
+      <rect x="550" y="567" width="120" height="27" rx="9"/>
+    </g>
+    <g fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13">
+      <text x="565" y="435">Layers</text>
+      <text x="565" y="487">Effects</text>
+      <text x="565" y="539">Masks</text>
+      <text x="565" y="586">History</text>
+    </g>
+  </g>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700" text-anchor="middle">
+    <g transform="translate(160 390)">
+      <rect width="250" height="122" rx="25" fill="#1e241e" stroke="#515a50"/>
+      <circle cx="48" cy="46" r="17" fill="#b2e54e"/>
+      <path d="M40 46h16M48 38v16" stroke="#172015" stroke-width="4" stroke-linecap="round"/>
+      <text x="144" y="51" fill="#f4f7f2" font-size="23">AI Chat</text>
+      <text x="125" y="88" fill="#899486" font-size="15" font-weight="500">Describe the result</text>
+    </g>
+    <g transform="translate(1190 390)">
+      <rect width="250" height="122" rx="25" fill="#1e241e" stroke="#515a50"/>
+      <circle cx="48" cy="46" r="17" fill="#b2e54e"/>
+      <path d="M39 48l7 7 12-18" fill="none" stroke="#172015" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="151" y="51" fill="#f4f7f2" font-size="23">ComfyUI</text>
+      <text x="125" y="88" fill="#899486" font-size="15" font-weight="500">Bring your own models</text>
+    </g>
+    <g transform="translate(675 708)">
+      <rect width="250" height="112" rx="25" fill="#1e241e" stroke="#515a50"/>
+      <circle cx="48" cy="43" r="17" fill="#b2e54e"/>
+      <path d="M38 43h20M43 35l-8 8 8 8M53 35l8 8-8 8" fill="none" stroke="#172015" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="152" y="48" fill="#f4f7f2" font-size="23">MCP</text>
+      <text x="125" y="82" fill="#899486" font-size="15" font-weight="500">Connect external agents</text>
+    </g>
+  </g>
+
+  <g fill="none" stroke="#b2e54e" stroke-width="3" stroke-linecap="round" stroke-dasharray="8 12" opacity="0.74">
+    <path d="M410 451C450 451 462 451 500 451"/>
+    <path d="M1100 451C1135 451 1151 451 1190 451"/>
+    <path d="M800 646V708"/>
+  </g>
+  <g fill="#b2e54e">
+    <path d="M492 442l14 9-14 9z"/>
+    <path d="M1182 442l14 9-14 9z"/>
+    <path d="M791 700l9 14 9-14z"/>
+  </g>
+  <text x="800" y="865" fill="#707a6e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="3">ONE CREATIVE SYSTEM • EDITABLE PHOTOSHOP RESULTS</text>
+</svg>
