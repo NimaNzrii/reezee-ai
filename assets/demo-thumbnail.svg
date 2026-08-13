@@ -2,45 +2,84 @@
   <title id="title">ReeZee AI quick demo</title>
   <desc id="desc">A clickable video thumbnail with a centered play button. Opens the demo video in a new tab.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1a1f1a"/>
-      <stop offset="1" stop-color="#0d110d"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e261e"/>
+      <stop offset="0.5" stop-color="#141a14"/>
+      <stop offset="1" stop-color="#0f130f"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.55"/>
     </linearGradient>
     <linearGradient id="playGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#d8ff87"/>
-      <stop offset="1" stop-color="#8fd83f"/>
+      <stop offset="0" stop-color="#e0ff9f"/>
+      <stop offset="1" stop-color="#7cb342"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" flood-color="#b2e54e" flood-opacity="0.35"/>
     </filter>
     <filter id="playShadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="14" flood-color="#000" flood-opacity="0.7"/>
     </filter>
-    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
-      <rect width="4" height="2" fill="#000" fill-opacity="0.03"/>
-    </pattern>
+    <filter id="inset" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#000" flood-opacity="0.45" in="SourceAlpha"/>
+    </filter>
   </defs>
 
-  <rect width="960" height="540" rx="16" fill="url(#bg)"/>
+  <rect width="960" height="540" rx="20" fill="url(#bg)"/>
 
-  <rect width="960" height="540" rx="16" fill="url(#scanlines)"/>
+  <g opacity="0.08">
+    <line x1="0" y1="90" x2="960" y2="90" stroke="#b2e54e" stroke-width="1"/>
+    <line x1="0" y1="180" x2="960" y2="180" stroke="#b2e54e" stroke-width="1"/>
+    <line x1="0" y1="270" x2="960" y2="270" stroke="#b2e54e" stroke-width="1"/>
+    <line x1="0" y1="360" x2="960" y2="360" stroke="#b2e54e" stroke-width="1"/>
+    <line x1="0" y1="450" x2="960" y2="450" stroke="#b2e54e" stroke-width="1"/>
+  </g>
 
-  <rect x="0" y="0" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
+  <rect x="30" y="30" width="900" height="480" rx="18" fill="#0d110d" opacity="0.5"/>
 
-  <g transform="translate(380 170)">
-    <rect x="0" y="0" width="200" height="200" rx="100" fill="#141814" stroke="#2e362e" stroke-width="2"/>
-    <g transform="translate(85 65)" filter="url(#playShadow)">
-      <circle cx="30" cy="30" r="30" fill="url(#playGrad)"/>
-      <path d="M26 18h20v24H26z" fill="#172015" opacity="0.9"/>
-      <path d="M40 24l14 12-14 12V24z" fill="#172015"/>
+  <rect x="0" y="0" width="960" height="8" rx="4" fill="#b2e54e" opacity="0.7"/>
+  <rect x="0" y="532" width="960" height="8" rx="4" fill="#b2e54e" opacity="0.7"/>
+
+  <g opacity="0.25">
+    <rect x="80" y="70" width="120" height="8" rx="4" fill="#b2e54e"/>
+    <rect x="80" y="90" width="80" height="6" rx="3" fill="#9ea99b"/>
+    <rect x="760" y="70" width="120" height="8" rx="4" fill="#b2e54e"/>
+    <rect x="760" y="90" width="80" height="6" rx="3" fill="#9ea99b"/>
+  </g>
+
+  <rect x="180" y="130" width="600" height="4" rx="2" fill="#2e362e"/>
+
+  <g transform="translate(430 160)">
+    <circle cx="50" cy="50" r="50" fill="#0d110d" stroke="#3a433a" stroke-width="2"/>
+    <circle cx="50" cy="50" r="50" fill="#000" opacity="0.3" filter="url(#glow)"/>
+    <g filter="url(#playShadow)">
+      <circle cx="50" cy="50" r="44" fill="url(#playGrad)"/>
+      <path d="M45 34h24v32H45z" fill="#0d110d" opacity="0.85"/>
+      <path d="M58 40l18 14-18 14V40z" fill="#0d110d"/>
     </g>
   </g>
 
-  <text x="480" y="430" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" text-anchor="middle" font-weight="700" letter-spacing="0.5">ReeZee AI — Quick Feature Demo</text>
+  <g transform="translate(180 360)">
+    <rect x="0" y="0" width="600" height="80" rx="16" fill="#141814" stroke="#2e362e" stroke-width="1.5"/>
+    <rect x="0" y="0" width="600" height="80" rx="16" fill="#000" opacity="0.25"/>
 
-  <text x="480" y="470" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" text-anchor="middle" letter-spacing="1">CLICK TO WATCH</text>
+    <rect x="16" y="20" width="568" height="4" rx="2" fill="#2e362e"/>
+    <rect x="16" y="20" width="240" height="4" rx="2" fill="#b2e54e" opacity="0.9"/>
 
-  <text x="480" y="500" fill="#687065" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle">Opens in a new tab · Demo of one feature · More coming soon</text>
+    <circle cx="36" cy="52" r="8" fill="#b2e54e" opacity="0.9"/>
+    <circle cx="36" cy="52" r="8" fill="#000" opacity="0.2"/>
+    <path d="M32 48h8v8H32z" fill="#0d110d" opacity="0.8"/>
+    <path d="M36 50l3 2-3 2V50z" fill="#0d110d"/>
 
-  <rect x="0" y="534" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
+    <rect x="56" y="44" width="180" height="6" rx="3" fill="#3a433a"/>
+    <rect x="56" y="56" width="100" height="6" rx="3" fill="#2e362e"/>
+
+    <rect x="520" y="46" width="60" height="24" rx="12" fill="#b2e54e" opacity="0.15"/>
+    <text x="550" y="62" fill="#b2e54e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" text-anchor="middle" font-weight="600">0:00</text>
+  </g>
+
+  <text x="480" y="490" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" text-anchor="middle" font-weight="700" letter-spacing="0.5">ReeZee AI — Quick Feature Demo</text>
+
+  <text x="480" y="518" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" text-anchor="middle" letter-spacing="1.5">CLICK TO PLAY</text>
 </svg>
