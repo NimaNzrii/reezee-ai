@@ -3,38 +3,44 @@
   <desc id="desc">A clickable video thumbnail with a centered play button. Opens the demo video in a new tab.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#202520"/>
-      <stop offset="1" stop-color="#111511"/>
+      <stop offset="0" stop-color="#1a1f1a"/>
+      <stop offset="1" stop-color="#0d110d"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000" flood-opacity="0.55"/>
-    </filter>
-    <filter id="playShadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#000" flood-opacity="0.55"/>
-    </filter>
-    <radialGradient id="playGrad" cx="50%" cy="50%" r="50%">
+    <linearGradient id="playGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#d8ff87"/>
       <stop offset="1" stop-color="#8fd83f"/>
-    </radialGradient>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="playShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="16" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="#000" fill-opacity="0.03"/>
+    </pattern>
   </defs>
 
-  <rect width="960" height="540" rx="28" fill="url(#bg)"/>
+  <rect width="960" height="540" rx="16" fill="url(#bg)"/>
 
-  <g filter="url(#shadow)">
-    <rect x="40" y="40" width="880" height="460" rx="24" fill="#171b17" stroke="#2e362e" stroke-width="2"/>
+  <rect width="960" height="540" rx="16" fill="url(#scanlines)"/>
+
+  <rect x="0" y="0" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
+
+  <g transform="translate(380 170)">
+    <rect x="0" y="0" width="200" height="200" rx="100" fill="#141814" stroke="#2e362e" stroke-width="2"/>
+    <g transform="translate(85 65)" filter="url(#playShadow)">
+      <circle cx="30" cy="30" r="30" fill="url(#playGrad)"/>
+      <path d="M26 18h20v24H26z" fill="#172015" opacity="0.9"/>
+      <path d="M40 24l14 12-14 12V24z" fill="#172015"/>
+    </g>
   </g>
 
-  <rect x="40" y="40" width="880" height="460" rx="24" fill="url(#bg)" opacity="0.35"/>
+  <text x="480" y="430" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" text-anchor="middle" font-weight="700" letter-spacing="0.5">ReeZee AI — Quick Feature Demo</text>
 
-  <rect x="40" y="40" width="880" height="4" rx="2" fill="#b2e54e" opacity="0.35"/>
+  <text x="480" y="470" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" text-anchor="middle" letter-spacing="1">CLICK TO WATCH</text>
 
-  <g transform="translate(430 220)" filter="url(#playShadow)">
-    <circle cx="50" cy="50" r="50" fill="url(#playGrad)"/>
-    <path d="M44 36h20v28H44z" fill="#172015" opacity="0.92"/>
-    <path d="M56 42l16 16-16 16V42z" fill="#172015"/>
-  </g>
+  <text x="480" y="500" fill="#687065" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle">Opens in a new tab · Demo of one feature · More coming soon</text>
 
-  <text x="480" y="470" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" text-anchor="middle" font-weight="600" letter-spacing="1">WATCH QUICK DEMO</text>
-
-  <text x="480" y="496" fill="#687065" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" text-anchor="middle">Click to open in a new tab</text>
+  <rect x="0" y="534" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
 </svg>
