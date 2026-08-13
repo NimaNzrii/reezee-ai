@@ -23,6 +23,24 @@
 
 ---
 
+## Quick feature demo
+
+This is a quick demo of one of ReeZee's features in action:
+
+[![Watch Demo](https://img.shields.io/badge/▶️_Watch_Quick_Demo-FF0000?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1Rkq20MVQ5-98l3Pd2KjoXlv-eT-5kPJ6/view?usp=drive_link)
+
+> This is a quick demonstration of a single feature. ReeZee is being built with many more capabilities.
+
+---
+
+## Business collaborations
+
+Interested in partnering, enterprise licensing, or custom integration? Reach out for business collaboration opportunities:
+
+[![Business Email](https://img.shields.io/badge/Email-Business_nimanzriart%40gmail.com-FF6B35?style=for-the-badge&logo=gmail&logoColor=white&labelColor=171C18)](mailto:nimanzriart@gmail.com?subject=Business%20Collaboration%20-%20ReeZee%20AI)
+
+---
+
 ## What is ReeZee?
 
 ReeZee is a new Photoshop plugin that lets AI agents **understand and construct real Photoshop documents** instead of returning only a flattened image.
