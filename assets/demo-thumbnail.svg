@@ -1,57 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
   <title id="title">ReeZee AI quick demo</title>
-  <desc id="desc">A clickable video thumbnail with a centered play button. Opens the demo video in a new tab.</desc>
+  <desc id="desc">Clickable video thumbnail using a dark frame with centered play button. Opens the demo video in a new tab.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#202820"/>
-      <stop offset="1" stop-color="#111511"/>
+      <stop offset="0" stop-color="#181c18"/>
+      <stop offset="1" stop-color="#0d110d"/>
     </linearGradient>
     <linearGradient id="playGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#e8ffb0"/>
       <stop offset="1" stop-color="#8fd83f"/>
     </linearGradient>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#000" flood-opacity="0.5"/>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#000" flood-opacity="0.7"/>
     </filter>
-    <filter id="playShadow" x="-40%" y="-40%" width="180%" height="180%">
-      <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#000" flood-opacity="0.65"/>
-    </filter>
-    <linearGradient id="barBg" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2a302a"/>
-      <stop offset="1" stop-color="#3a423a"/>
-    </linearGradient>
   </defs>
 
-  <rect width="960" height="540" rx="24" fill="url(#bg)"/>
+  <rect width="960" height="540" rx="20" fill="url(#bg)"/>
 
-  <rect x="0" y="0" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
+  <rect x="24" y="24" width="912" height="492" rx="14" fill="#0a0e0a" opacity="0.5" stroke="#2a302a" stroke-width="1.5"/>
 
-  <rect x="24" y="24" width="912" height="492" rx="18" fill="#0d110d" opacity="0.4" stroke="#2a302a" stroke-width="1.5"/>
-
-  <g transform="translate(380 130)">
-    <circle cx="50" cy="50" r="50" fill="#0a0e0a" stroke="#3a433a" stroke-width="2.5"/>
-    <g filter="url(#playShadow)">
-      <circle cx="50" cy="50" r="46" fill="url(#playGrad)"/>
-      <path d="M44 34h24v32H44z" fill="#0d110d" opacity="0.85"/>
-      <path d="M58 40l18 14-18 14V40z" fill="#0d110d"/>
-    </g>
+  <g transform="translate(430 195)" filter="url(#shadow)">
+    <circle cx="50" cy="50" r="50" fill="url(#playGrad)"/>
+    <path d="M46 34h24v32H46z" fill="#0d110d" opacity="0.85"/>
+    <path d="M60 40l18 14-18 14V40z" fill="#0d110d"/>
   </g>
 
-  <text x="480" y="310" fill="#f5f8f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="26" text-anchor="middle" font-weight="700" letter-spacing="0.5">ReeZee AI — Quick Feature Demo</text>
-
-  <text x="480" y="340" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" text-anchor="middle" letter-spacing="1">CLICK TO PLAY IN NEW TAB</text>
-
-  <g transform="translate(180 380)">
-    <rect x="0" y="0" width="600" height="8" rx="4" fill="url(#barBg)"/>
-    <rect x="0" y="0" width="600" height="8" rx="4" fill="#b2e54e" opacity="0.9"/>
-
-    <circle cx="0" cy="4" r="10" fill="#b2e54e" filter="url(#shadow)"/>
-    <circle cx="0" cy="4" r="10" fill="#000" opacity="0.2"/>
-    <path d="M-3 1h6v6H-3z" fill="#0d110d" opacity="0.85"/>
-    <path d="M0 3l2 2-2 2V3z" fill="#0d110d"/>
-  </g>
-
-  <text x="480" y="445" fill="#687065" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" text-anchor="middle">0:00 / 1:24</text>
-
-  <rect x="0" y="534" width="960" height="6" rx="3" fill="#b2e54e" opacity="0.6"/>
+  <text x="480" y="500" fill="#9ea99b" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" text-anchor="middle" letter-spacing="1">CLICK TO PLAY</text>
 </svg>
