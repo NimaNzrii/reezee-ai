@@ -17,12 +17,6 @@
 
 <img src="assets/brand-banner.svg" alt="ReeZee AI connects Photoshop, ComfyUI, AI chat, and MCP clients" width="100%" />
 
-> [!IMPORTANT]
-> # ReeZee is coming soon.
-> There is **no public download yet**. The plugin is currently in private development and testing. This repository is a preview of what is being built — not an installable release.
-
----
-
 ## Quick feature demo
 
 This is a quick demo of one of ReeZee's features in action:
@@ -32,6 +26,12 @@ This is a quick demo of one of ReeZee's features in action:
 </a>
 
 > This is a quick demonstration of a single feature. ReeZee is being built with many more capabilities.
+
+---
+
+> [!IMPORTANT]
+> # ReeZee is coming soon.
+> There is **no public download yet**. The plugin is currently in private development and testing. This repository is a preview of what is being built — not an installable release.
 
 ---
 
@@ -134,6 +134,15 @@ Work from ReeZee's built-in chat or connect an MCP-capable client to the same Ph
 - [ ] Final Photoshop-host reliability testing
 - [ ] Public installation guide
 - [ ] **Official public release**
+
+### Help ReeZee reach the finish line
+
+ReeZee is built by a solo developer. The engineering is real and the progress is tangible — but getting from *working prototype* to a reliable public release takes more than code. It takes a community that believes in the idea and shows up for it.
+
+**The best way to support ReeZee is collaboration, not just applause.** Try the workflow, report what breaks, suggest what matters to you, share it with someone who would actually use it. Every bit of real engagement moves this project closer to launch.
+
+> [!NOTE]
+> Stars are appreciated. But a tested build, a bug report, a feature request, or a conversation about how *you* would use ReeZee — that is what keeps it alive.
 
 <div align="center">
 
