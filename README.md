@@ -28,7 +28,7 @@
 This is a quick demo of one of ReeZee's features in action:
 
 <a href="https://drive.google.com/file/d/1Rkq20MVQ5-98l3Pd2KjoXlv-eT-5kPJ6/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-  <img src="assets/demo-thumbnail.svg" alt="Watch quick demo" width="960" />
+  <img src="assets/video-thumbnail.png" alt="Watch quick demo" width="960" />
 </a>
 
 > This is a quick demonstration of a single feature. ReeZee is being built with many more capabilities.
