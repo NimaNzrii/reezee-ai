@@ -5,7 +5,7 @@
 # ReeZee AI for Photoshop
 
 ## COMING SOON
-
+ 
 **An AI-native Photoshop workspace with deep document control, your ComfyUI stack, and MCP-ready agents.**
 
 [![Coming Soon](https://img.shields.io/badge/COMING%20SOON-REEZEE%20AI-B2E54E?style=for-the-badge&labelColor=171C18)](#coming-soon)
